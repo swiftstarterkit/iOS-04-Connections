@@ -41,6 +41,7 @@ struct ContentView: View {
                 ConnectionView(imageName: "phoebe")
                     .rotationEffect(.degrees(30))
             }   .rotationEffect(.degrees(-30))
-        }.frame(width: 300, height: 300)
+            
+        }   .frame(width: 300, height: 300)
     }
 }
